@@ -40,7 +40,15 @@ a:hover {
     display: block;
     width:243px;
     height:170px;
-    padding-left: 19px;
+    padding-left: 65px;
+}
+
+.content {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid black;
 }
 
 p {
@@ -89,12 +97,13 @@ h1 {
         justify-content: center;
         flex-direction: row;
         align-items: center;
+        padding-bottom: 50px;
     }
 
 
 
     .img_center {
-        height: 400px;
+        height: 408px;
         width: 540px;
 
     }
@@ -104,8 +113,12 @@ h1 {
         flex-direction: column;
         align-content: center;
         text-align: center;
-        padding: 50px;
+        margin-left: 50px;
         width: 50%;
+        background-color: white;
+        border: 1px solid black;
+
+
 
     }
 
